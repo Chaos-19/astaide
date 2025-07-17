@@ -6,12 +6,12 @@ plugins {
 
 android {
     namespace = "com.example.astaide"
-    compileSdk = 36
+    compileSdk = 35
 
     defaultConfig {
         applicationId = "com.example.astaide"
         minSdk = 24
-        targetSdk = 36
+        targetSdk = 35
         versionCode = 1
         versionName = "1.0"
 
@@ -37,6 +37,7 @@ android {
     buildFeatures {
         compose = true
     }
+    
 }
 
 dependencies {
